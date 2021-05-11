@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+body {
+  background-image: linear-gradient(to bottom, black , black);
+  padding-top: 10rem;
+}
+nav a{
+    color: white;
+}
+nav a:hover{
+    animation: blinkNav 3s infinite;
+    border: black 3px;
+}
+#home{
+  padding-top: 3rem;
+  height: 50rem;
+}
+#home h2{
+    text-shadow: 0 0 2px #c6dfc3, 0 0 5px #c6dfc3, 0 0 10px #c6dfc3, 0 0 30px #c6dfc3, 0 0 50px #e9ffc7, 0 0 5px #b3b3b3, 0 0 80px #e9ffc7;
+    color: #ffffff;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 7vh;
+}
+#home h1, #about h1, #skills h1, #works h1, #contact h1{
+    font-size: 25vh;
+    text-shadow: 0 0 5px #13be03, 0 0 15px #13be03, 0 0 20px #13be03, 0 0 40px #13be03, 0 0 60px #9dff00, 0 0 10px #6fce03, 0 0 98px #9dff00;
+    color: #92ff88;
+    font-family: "Sacramento", cursive;
+    animation: blink 12s infinite;
+    -webkit-animation: blink 12s infinite;
+}
+
+#about{
+  height: 50rem;
+}
+#about img{
+  border-radius: 50rem;
+  background-color: grey;
+}
+#about p{
+  color: white;
+  font-size: 1rem;
+  width: 70rem;
+  height: 20rem;
+  padding-right: 30rem;
+}
+/*
+#img1{
+  width: 20rem;
+  height: 20rem;
+  float: left;
+  margin-left: 10rem;
+}
+#img2, #img3, #img4{
+  float: right;
+  margin-top: 30rem;
+}
+#img2{
+  width: 15rem;
+  height: 15rem;
+  margin-top: 48rem;
+  margin-right: 10rem;
+}
+#img3{
+  width: 20rem;
+  height: 20rem;
+}
+#img4{
+  width: 10rem;
+  height: 10rem;
+  margin-top: 45rem;
+}
+*/
+#skills div{
+  margin: 5rem;
+}
+#skillsText{
+  color: white;
+  width: 30rem;
+  height: 15rem;
+  
+}
+#skillBar div{
+  width: 20rem;
+  height: 1rem;
+  border-radius: 20rem;
+  background-color: red;
+  transition: 5s all;
+  margin: 2rem;
+}
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #000000;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+      text-shadow: 0 0 5px #13be03, 0 0 15px #13be03, 0 0 20px #13be03, 0 0 40px #13be03, 0 0 60px #9dff00, 0 0 10px #6fce03, 0 0 98px #9dff00;
+      color: #92ff88;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #000000;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+      text-shadow: 0 0 5px #13be03, 0 0 15px #13be03, 0 0 20px #13be03, 0 0 40px #13be03, 0 0 60px #9dff00, 0 0 10px #6fce03, 0 0 98px #9dff00;
+      color: #92ff88;
+  }
+}
+@keyframes blinkNav {
+    20%,
+    24%,
+    55% {
+      color: #000000;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        text-shadow: 0 0 2px #c6dfc3, 0 0 5px #c6dfc3, 0 0 10px #c6dfc3, 0 0 30px #c6dfc3, 0 0 50px #e9ffc7, 0 0 5px #b3b3b3, 0 0 80px #e9ffc7;
+        color: #ffffff;
+    }
+  }
