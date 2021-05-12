@@ -1,7 +1,7 @@
 var img1 = document.getElementById('img1');
 var aboutDiv = document.getElementsByClassName('aboutDiv');
 var about = document.getElementById('about');
-let skill1 = document.getElementById('skill1');
+var skill1 = document.getElementById('skill1');
 let skill2 = document.getElementById('skill2');
 let skill3 = document.getElementById('skill3');
 
@@ -66,6 +66,7 @@ window.onload = function() {
 };
 
 function skillBar(){
-    alert("ah");
-    skill1.style.width = "1rem";
+    skill1.style.width = "20rem";
+    skill2.style.width = "20rem";
+    skill3.style.width = "10rem";
 }
