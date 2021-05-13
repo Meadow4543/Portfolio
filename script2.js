@@ -4,6 +4,7 @@ var about = document.getElementById('about');
 var skill1 = document.getElementById('skill1');
 let skill2 = document.getElementById('skill2');
 let skill3 = document.getElementById('skill3');
+let fName = document.getElementById('name');
 
 
 var TxtType = function(el, toRotate, period) {
@@ -68,5 +69,5 @@ window.onload = function() {
 function skillBar(){
     skill1.style.width = "20rem";
     skill2.style.width = "20rem";
-    skill3.style.width = "10rem";
+    skill3.style.width = "20rem";
 }
