@@ -92,22 +92,116 @@
             <p class="text-center col" onclick="websiteWorks()">Websites</p>
             <p class="text-center col" onclick="designWorks()">Designs</p>
           </div>
-          <div class="row" id="workGrid">
-            <div class="col"><p><img src="images/natureAspect.png" alt="Nature Aspect"></p></div>
-            <div class="col"><p><img src="images/natureAspect.png" alt="Nature Aspect"></p></div>
-            <div class="col"><p><img src="images/RMS.png" alt="Nature Aspect"></p></div>
+          <div class="row text-center" id="workGrid">
+            <div class="col website" data-bs-toggle="modal" data-bs-target="#modal1">
+              <p><img src="images/natureAspect.png" alt="Nature Aspect"></p>
+            </div>
+            <div class="col design" data-bs-toggle="modal" data-bs-target="#modal2">
+              <p><img src="images/natureAspect.png" alt="Nature Aspect"></p>
+            </div>
+            <div class="col website " data-bs-toggle="modal" data-bs-target="#modal3">
+              <p><img src="images/RMS.png" alt="Nature Aspect"></p>
+            </div>
           </div> 
-          <div class="row" id="workGrid">
-            <div class="col"><p><img src="images/natureAspect.png" alt="Nature Aspect"></p></div>
-            <div class="col"><p><img src="images/DnD.png" alt="Nature Aspect"></p></div>
-            <div class="col"><p><img src="images/natureAspect.png" alt="Nature Aspect"></p></div>
+          <div class="row text-center" id="workGrid">
+            <div class="col website" data-bs-toggle="modal" data-bs-target="#modal4">
+              <p><img src="images/natureAspect.png" alt="Nature Aspect"></p
+              ></div>
+            <div class="col website" data-bs-toggle="modal" data-bs-target="#modal5">
+              <p><img src="images/DnD.png" alt="Nature Aspect"></p>
+            </div>
+            <div class="col design" data-bs-toggle="modal" data-bs-target="#modal6">
+              <p><img src="images/natureAspect.png" alt="Nature Aspect"></p>
+            </div>
           </div> 
+        </div>
+        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Business Capstone project</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>The Nature Aspect is a business that I created for my capstone project at West-mec. This project included an in-depth business plan and a detailed website.
+                  The code for this website can be found on Github https://github.com/MeadowGreen/NatureAspect.git and the website itself can be found at https://meadowgreen.github.io/NatureAspect/. 
+                  This project demonstrates my understanding of HTML, CSS, JavaScript, animation, event listeners, and bootstrap. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>modal</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Records Management System</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>This website illustrates a collaborite project that stores information in a backend database. The code can be 
+                  found on Github at https://github.com/MeadowGreen/RMS2.0.git. This demonstrates my understanding of MongoDB and MySQL. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>modal</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>modal</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>modal6</p>
+              </div>
+            </div>
+          </div>
         </div>
         <div id="contact" class="row">
           <h1 class="text-center">Contact</h1>
           <div class="col" id="contactInfo">
             <h2 class="text-center">Contact Information</h2>
-            <h3></h3>
             <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
               <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
               <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>

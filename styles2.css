@@ -108,17 +108,13 @@ nav a:hover{
 }
 #works{
   margin-bottom: 15rem;
-}
-#workGrid{
-  margin-left: 2rem;
+  color: white;
+  font-size: 2rem;
 }
 #workGrid img{
   border: 2px solid #13be03;
   width: 20rem;
   height: 15rem;
-}
-#workGrid img:hover{
-  
 }
 #works p{
 color: white;
@@ -129,6 +125,7 @@ padding: 2rem;
   animation: blinkNav 3s infinite;
   border: black 3px;
 }
+
 #contact{
   color: white;
   margin: 2rem;
