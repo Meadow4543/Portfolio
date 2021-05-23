@@ -5,6 +5,7 @@ var skill1 = document.getElementById('skill1');
 let skill2 = document.getElementById('skill2');
 let skill3 = document.getElementById('skill3');
 let fName = document.getElementById('name');
+var websites = document.getElementById('website');
 
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
@@ -69,8 +70,4 @@ function skillBar(){
     skill1.style.width = "33rem";
     skill2.style.width = "30rem";
     skill3.style.width = "24rem";
-}
-
-function allWorks(){
-    websites.style.visibility = "hidden";
 }

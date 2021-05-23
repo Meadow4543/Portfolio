@@ -25,7 +25,7 @@ nav a:hover{
     font-family: 'Rajdhani', sans-serif;
     font-size: 7vh;
 }
-#home h1, #about h1, #skills h1, #works h1, #contact h1{
+#home h1, #about h1, #skills h1, #works h1, #contact h1, #resume h1{
     font-size: 25vh;
     text-shadow: 0 0 5px #13be03, 0 0 15px #13be03, 0 0 20px #13be03, 0 0 40px #13be03, 0 0 60px #9dff00, 0 0 10px #6fce03, 0 0 98px #9dff00;
     color: #92ff88;
@@ -63,6 +63,10 @@ nav a:hover{
   color: white;
   width: 30rem;
   height: 15rem;
+}
+#skillsText span{
+  text-shadow: 0 0 5px #13be03, 0 0 15px #13be03, 0 0 20px #13be03; 
+  color: #92ff88;
 }
 #skillInside{
   background-color: rgb(107, 107, 107);
@@ -175,6 +179,34 @@ button{
   color: white;
 }
 
+#resume{
+  margin-bottom: 15rem;
+  color: white;
+  font-size: 1rem;
+}
+#resumeImg img{
+  width: 33rem;
+  height: 35rem;
+  margin-left: 6rem;
+  margin-bottom: 6rem;
+}
+#resumeText{
+  padding: 5rem;
+}
+.place{
+  text-shadow: 0 0 5px #13be03, 0 0 15px #13be03; 
+  color: #92ff88;
+}
+.time{
+  font-variant: small-caps;
+  font-weight: none;
+  font-size: .8rem;
+}
+#download a{
+ text-decoration: none;
+ color: white;
+  font-size: 1rem;
+}
 @-webkit-keyframes blink {
   20%,
   24%,
